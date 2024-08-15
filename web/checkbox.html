@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+                
+                <style>
+
+            #formulario {
+                width: 300px;
+                height: 200px;
+                background-color: #D9D9D9;
+                border: solid;
+                border-color: #5C5A5A;
+                position: relative;
+                left: 42%;
+             margin-top: 5%;
+               
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div id="formulario" >
+        <form action="videogamecontrol"> 
+            <center>
+                Por onde você deseja receber notificações? <br><br>
+            <input type="checkbox" id="email" name="cbnotify" value="Email" checked disabled> email  <br>
+            <input type="checkbox" id="sms" name="cbnotify" value="Sms"> sms <br>
+            <input type="checkbox" id="whats" name="cbnotify" value="Whats"> whats <br>
+    <input type="checkbox" id="email" name="cbnotify" value="Email" checked hidden>  <br>
+            <button type="submit" name="btnoperacao" value="Notif"> Confirmar </button>
+            </center>
+        </form>
+        </div>
+    </body>
+</html>
